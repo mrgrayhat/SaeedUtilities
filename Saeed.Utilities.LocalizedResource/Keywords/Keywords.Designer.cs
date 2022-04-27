@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Huddeh.LocalizedResource.Keywords {
+namespace Saeed.Utilities.LocalizedResource.Keywords {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Huddeh.LocalizedResource.Keywords {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Huddeh.LocalizedResource.Keywords.Keywords", typeof(Keywords).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Saeed.Utilities.LocalizedResource.Keywords.Keywords", typeof(Keywords).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

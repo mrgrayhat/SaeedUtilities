@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Huddeh.LocalizedResource.InformationMessages {
+namespace Saeed.Utilities.LocalizedResource.InformationMessages {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Huddeh.LocalizedResource.InformationMessages {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Huddeh.LocalizedResource.InformationMessages.InformationMessages", typeof(InformationMessages).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Saeed.Utilities.LocalizedResource.InformationMessages.InformationMessages", typeof(InformationMessages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

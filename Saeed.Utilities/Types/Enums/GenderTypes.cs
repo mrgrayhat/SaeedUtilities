@@ -1,4 +1,4 @@
-﻿using Huddeh.LocalizedResource.Keywords;
+﻿using Saeed.Utilities.LocalizedResource.Keywords;
 
 using System.ComponentModel;
 

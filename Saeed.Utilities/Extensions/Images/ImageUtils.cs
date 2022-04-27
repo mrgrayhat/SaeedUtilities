@@ -11,7 +11,7 @@ using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 
-using Huddeh.LocalizedResource.ErrorMessages;
+using Saeed.Utilities.LocalizedResource.ErrorMessages;
 using Saeed.Utilities.Contracts;
 using Saeed.Utilities.Extensions.Images.ResizeMethods;
 using Saeed.Utilities.Types.Enums;

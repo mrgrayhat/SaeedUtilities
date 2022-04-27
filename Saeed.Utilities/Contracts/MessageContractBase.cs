@@ -4,8 +4,8 @@ using System.Linq;
 using System.Net;
 using System.Runtime.Serialization;
 
-using Huddeh.LocalizedResource.ErrorMessages;
-using Huddeh.LocalizedResource.InformationMessages;
+using Saeed.Utilities.LocalizedResource.ErrorMessages;
+using Saeed.Utilities.LocalizedResource.InformationMessages;
 using Saeed.Utilities.API;
 using Saeed.Utilities.API.Responses;
 

@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 
-using Huddeh.LocalizedResource.ErrorMessages;
+using Saeed.Utilities.LocalizedResource.ErrorMessages;
 
 using MongoDB.Bson.Serialization.Attributes;
 

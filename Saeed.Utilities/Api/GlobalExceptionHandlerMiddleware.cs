@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-using Huddeh.LocalizedResource.ErrorMessages;
+using Saeed.Utilities.LocalizedResource.ErrorMessages;
 using Saeed.Utilities.API.Responses;
 using Saeed.Utilities.Exceptions;
 

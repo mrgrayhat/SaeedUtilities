@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using FluentValidation.Results;
 
-using Huddeh.LocalizedResource.ErrorMessages;
+using Saeed.Utilities.LocalizedResource.ErrorMessages;
 
 namespace Saeed.Utilities.Exceptions
 {

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Huddeh.LocalizedResource.ErrorMessages {
+namespace Saeed.Utilities.LocalizedResource.ErrorMessages {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Huddeh.LocalizedResource.ErrorMessages {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Huddeh.LocalizedResource.ErrorMessages.ErrorMessages", typeof(ErrorMessages).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Saeed.Utilities.LocalizedResource.ErrorMessages.ErrorMessages", typeof(ErrorMessages).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

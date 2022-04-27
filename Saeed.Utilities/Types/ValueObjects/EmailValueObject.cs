@@ -1,4 +1,4 @@
-﻿using Huddeh.LocalizedResource.ErrorMessages;
+﻿using Saeed.Utilities.LocalizedResource.ErrorMessages;
 using Saeed.Utilities.Gaurds;
 
 using System.ComponentModel.DataAnnotations;
