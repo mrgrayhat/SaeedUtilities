@@ -4,6 +4,6 @@
     {
         public bool UseDomain { get; set; } = false;
         public bool UseHttps { get; set; } = false;
-        public string Domain { get; set; } = "https://axeto.net/";
+        public string Domain { get; set; }
     }
 }

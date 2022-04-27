@@ -6,21 +6,21 @@
         public bool StaticFilesCachingEnalbed { get; set; } = true;
 
         public bool ApplyWatermark { get; set; } = true;
-        public string BaseRootPath { get; set; } = "wwwroot";
-        public string ProfileFilesPath { get; set; } = "public\\profiles";
-        public string UserUploadFilesPath { get; set; } = "public\\uploads";
-        public string WatermarkText { get; set; } = "Axeto";
-        public string DefaultProfileImage { get; set; } = "assets//user_profile_default.png";
-        public string DefaultCoverImage { get; set; } = "assets//user_profile_default_cover.jpg";
-        public string GuardImage { get; set; } = "assets\\protected_icon.png";
-        public string NotFoundImage { get; set; } = "assets\\axeto-logo-02.png";
-        public string WatermarkImage { get; set; } = "assets\\axeto-logo-04.png";
-        public string AssetFilesPath { get; set; } = "assets";
-        public string PublicFilesPath { get; set; } = "public";
-        public string PreviewFilesPath { get; set; } = "public\\previews";
-        public string ThumbnailFilesPath { get; set; } = "public\\thumbnails";
-        public string PrivateProjectFilesPath { get; set; } = "private\\projects";
-        public string PrivateFilesPath { get; set; } = "data";
+        public string BaseRootPath { get; set; }
+        public string ProfileFilesPath { get; set; }
+        public string UserUploadFilesPath { get; set; }
+        public string WatermarkText { get; set; }
+        public string DefaultProfileImage { get; set; }
+        public string DefaultCoverImage { get; set; }
+        public string GuardImage { get; set; }
+        public string NotFoundImage { get; set; }
+        public string WatermarkImage { get; set; }
+        public string AssetFilesPath { get; set; }
+        public string PublicFilesPath { get; set; }
+        public string PreviewFilesPath { get; set; }
+        public string ThumbnailFilesPath { get; set; }
+        public string PrivateProjectFilesPath { get; set; }
+        public string PrivateFilesPath { get; set; }
 
         public long MinUploadSize { get; set; } = 0;
         public long MaxUploadSize { get; set; } = 40 * 1024 * 1024; // 40mb == ~ 41943040 byte
