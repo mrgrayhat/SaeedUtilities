@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivationLinkSent" xml:space="preserve">
+    <value>Activation Link Sent To Your Phone/Email</value>
+  </data>
+  <data name="AddCartSuccess" xml:space="preserve">
+    <value>Item was added successfully to cart</value>
+  </data>
+  <data name="AddTicketSuccess" xml:space="preserve">
+    <value>Add Ticket Success</value>
+  </data>
+  <data name="AffischTimeMessage" xml:space="preserve">
+    <value>The maximum time required to reach the project site is 0 minutes. Please be careful with your schedule</value>
+  </data>
+  <data name="AlbumCreatedSuccessfully" xml:space="preserve">
+    <value>Album Created Successfully</value>
+  </data>
+  <data name="AlbumCreatedSuccessfullySms" xml:space="preserve">
+    <value>Album 0 Created Successfully</value>
+  </data>
+  <data name="BiographyEmpty" xml:space="preserve">
+    <value>Im Using Axeto</value>
+  </data>
+  <data name="BuyFullAlbumComplete" xml:space="preserve">
+    <value>Buy Full Album Complete</value>
+  </data>
+  <data name="CancellationVerify" xml:space="preserve">
+    <value>Please Verify Cancellation</value>
+  </data>
+  <data name="ChangeProjectState" xml:space="preserve">
+    <value>project State Changed to {0}</value>
+  </data>
+  <data name="CheckUploadingTime" xml:space="preserve">
+    <value>Uploading Standard Time Over. You Got Some Minus Points</value>
+  </data>
+  <data name="ConfirmLink" xml:space="preserve">
+    <value>Axeto Confirmation Link : {0}</value>
+  </data>
+  <data name="ContactSupportIfNeeded" xml:space="preserve">
+    <value>If necessary, please contact support</value>
+  </data>
+  <data name="DiscountAppliedSuccess" xml:space="preserve">
+    <value>A discount of {0}Tomans was applied</value>
+  </data>
+  <data name="DistributedCacheUnavailable" xml:space="preserve">
+    <value>Distributed Cache Is Not Available !</value>
+  </data>
+  <data name="EULAPolicy" xml:space="preserve">
+    <value>End User Licence Agreement</value>
+    <comment>eula contract</comment>
+  </data>
+  <data name="ExtendAlbumSuccessfully" xml:space="preserve">
+    <value>Extend Album Successfully</value>
+  </data>
+  <data name="IdentityRejected" xml:space="preserve">
+    <value>Client {0} Identity Has Been Rejected.</value>
+  </data>
+  <data name="InquiryAvailable" xml:space="preserve">
+    <value>Service Providers Are Available !</value>
+  </data>
+  <data name="InquiryNotAvailable" xml:space="preserve">
+    <value>No Service Provider Are Available With This Conditions !</value>
+  </data>
+  <data name="IntrusionDetected" xml:space="preserve">
+    <value>Intrusion into the system was detected {0} !</value>
+  </data>
+  <data name="judgementStateChangeToFinal" xml:space="preserve">
+    <value>Project 0 Judgement Result Goes to 1</value>
+  </data>
+  <data name="JudgementStateToPend" xml:space="preserve">
+    <value>Project 0 Judgement State Changed To 1</value>
+  </data>
+  <data name="JudgementSubmitedCu" xml:space="preserve">
+    <value>judgement Request Submited For Project 0</value>
+  </data>
+  <data name="JudgementSubmitedSp" xml:space="preserve">
+    <value>an judgement request submited for project 0</value>
+  </data>
+  <data name="MultipleLoginAttempt" xml:space="preserve">
+    <value>Multiple Login Attempt Detected {0} !</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PasswordLinkSent" xml:space="preserve">
+    <value>Change Password Link Sent To Your Phone/Email</value>
+  </data>
+  <data name="PendingSkillMessage" xml:space="preserve">
+    <value>The Request Pending</value>
+  </data>
+  <data name="PortfoSendSuccessfully" xml:space="preserve">
+    <value>Your image was successfully uploaded. After confirmation, the photo will be placed in your profile</value>
+  </data>
+  <data name="PrePaymentRemainMessage" xml:space="preserve">
+    <value>You can buy 0 item from this album by prepayment </value>
+  </data>
+  <data name="PrepaymentsDone" xml:space="preserve">
+    <value>Prepayments Done</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+  <data name="Proccessing" xml:space="preserve">
+    <value>You'r request is under process</value>
+  </data>
+  <data name="ProjectAlbumReminder" xml:space="preserve">
+    <value>Album expiration reminder for {0} project</value>
+  </data>
+  <data name="ProjectNotFoundForCity" xml:space="preserve">
+    <value>Project Not Found ForCity</value>
+  </data>
+  <data name="ProjectNotFoundForFreeTime" xml:space="preserve">
+    <value>Project Not Found For  your FreeTime</value>
+  </data>
+  <data name="ProjectNotFoundForSKill" xml:space="preserve">
+    <value>Project Not Found For  your SKill</value>
+  </data>
+  <data name="ProjectNotFoundForSpeciality" xml:space="preserve">
+    <value>Project Not Found For your Speciality</value>
+  </data>
+  <data name="ProjectOfferAcceptedSpVersion" xml:space="preserve">
+    <value>Your Offer For {0} Project Is Accepted</value>
+  </data>
+  <data name="ProjectOrdeAvailableEmailMessage" xml:space="preserve">
+    <value>A Project with your skills are available !</value>
+  </data>
+  <data name="ProjectOrderCancelled" xml:space="preserve">
+    <value>Project Order {0} Cancelled</value>
+  </data>
+  <data name="ProjectOrderCreatedEmailMessage" xml:space="preserve">
+    <value>Your Project Created Successfully, at {0}</value>
+  </data>
+  <data name="ProjectOrderExpired" xml:space="preserve">
+    <value>Project Order {0} Expired</value>
+  </data>
+  <data name="ProjectOrderIsPending" xml:space="preserve">
+    <value>Project Order {0} Is Pending</value>
+  </data>
+  <data name="ProjectOrderOfferAcceptedCuMessage" xml:space="preserve">
+    <value>Project Offer Accepted</value>
+  </data>
+  <data name="ProjectOrderOfferAcceptedSpMessage" xml:space="preserve">
+    <value>Your Offer Accepted For {0} Project</value>
+  </data>
+  <data name="ProjectOrderOfferCreatedEmailMessage" xml:space="preserve">
+    <value>New Offer created for you'r project order {0}</value>
+  </data>
+  <data name="ProjectOrderTimingUpdated" xml:space="preserve">
+    <value>Project Order {0} Timing / Details Updated</value>
+  </data>
+  <data name="ProjectOrderUpdated" xml:space="preserve">
+    <value>Project Order {0} Updated</value>
+  </data>
+  <data name="ProjectPrepaymentTimeOut" xml:space="preserve">
+    <value>Your Project was deleted because of not  prepayment</value>
+  </data>
+  <data name="ProjectsReminder" xml:space="preserve">
+    <value>Projects Reminder</value>
+  </data>
+  <data name="ProjectStarted" xml:space="preserve">
+    <value>Project Started</value>
+  </data>
+  <data name="ProjectStateUploading" xml:space="preserve">
+    <value>Project State Changed To Uploading</value>
+  </data>
+  <data name="ProviderSkillApproved" xml:space="preserve">
+    <value>{0} Skill For Service Provider {1} Approved</value>
+  </data>
+  <data name="ProviderSkillRejected" xml:space="preserve">
+    <value>{0} Skill For Service Provider {1} Rejected</value>
+  </data>
+  <data name="ProviderSpecialtyChanged" xml:space="preserve">
+    <value>Provider {0} Specialty Changed</value>
+  </data>
+  <data name="RejectProjectSuccess" xml:space="preserve">
+    <value>Project Rejected by Service Provider!</value>
+  </data>
+  <data name="ServerUnderUpdate" xml:space="preserve">
+    <value>We are updating the server. Thank you for your patience.</value>
+  </data>
+  <data name="ServiceIsNotReachable" xml:space="preserve">
+    <value>Service {0} is not reachable !</value>
+  </data>
+  <data name="ServiceProviderArrived" xml:space="preserve">
+    <value>Service Provider Arrived?</value>
+  </data>
+  <data name="SpAcceptOffer" xml:space="preserve">
+    <value>Your Offer is accepted</value>
+  </data>
+  <data name="spConfirmationSuccess" xml:space="preserve">
+    <value>Your Account Confirmed Successfully</value>
+  </data>
+  <data name="specialityAndSkillAccessDenied" xml:space="preserve">
+    <value>Access to this Project denied beacuse of skill or speciality limit</value>
+  </data>
+  <data name="SpecialitySubmitet" xml:space="preserve">
+    <value>Speciality Submited Successfully, it will added after Accept by Admin</value>
+  </data>
+  <data name="SuccessfullAccountVerification" xml:space="preserve">
+    <value>Your account has been successfully verified</value>
+  </data>
+  <data name="SuccessfullFileUpload" xml:space="preserve">
+    <value>File uploaded successfully</value>
+  </data>
+  <data name="SuccessfullLoggedIn" xml:space="preserve">
+    <value>You have successfully logged in to your account</value>
+  </data>
+  <data name="SuccessfullLoggedOut" xml:space="preserve">
+    <value>You have successfully logged out</value>
+  </data>
+  <data name="SuccessfullPayment" xml:space="preserve">
+    <value>Payment was successful</value>
+  </data>
+  <data name="SuccessfullProfileUpdate" xml:space="preserve">
+    <value>Your profile has been updated successfully</value>
+  </data>
+  <data name="SuccessfullWalletCharge" xml:space="preserve">
+    <value>Wallet credit successfully charged</value>
+  </data>
+  <data name="Successfully" xml:space="preserve">
+    <value>Done successfully</value>
+  </data>
+  <data name="SuccessfulOperation" xml:space="preserve">
+    <value>The operation was successful</value>
+  </data>
+  <data name="SuspiciousLoginAttemptsDetected" xml:space="preserve">
+    <value>Dear {0} ! We have noticed several unsuccessful attempts to sign in to your account at {1}. If you have forgotten your password, you can restore your account via the following address {2} . Otherwise ignore this message.</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Thank you !</value>
+  </data>
+  <data name="TicketReplySuccess" xml:space="preserve">
+    <value>Ticket Reply Success</value>
+  </data>
+  <data name="UnsupportedProtocol" xml:space="preserve">
+    <value>This Authentication Flow Is Not Supported !</value>
+  </data>
+  <data name="UpdateSuccess" xml:space="preserve">
+    <value>Update Success</value>
+  </data>
+  <data name="UploadReportToCustomer" xml:space="preserve">
+    <value>Uplade Delay Report Submited Successfully</value>
+  </data>
+  <data name="UploadReportToServiceProvider" xml:space="preserve">
+    <value>You got Delay Report For Project</value>
+  </data>
+  <data name="UserAgreement" xml:space="preserve">
+    <value>User Agreement</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Welcome Dear {0}</value>
+  </data>
+  <data name="YourAccountConfirmed" xml:space="preserve">
+    <value>YourAccountConfirmed</value>
+  </data>
+  <data name="YourAccountConfirmedPendOnProfile" xml:space="preserve">
+    <value>YourAccountConfirmed. For activate your speciality check profile on this address https://serviceprovider.axeto.net and fill your profile.</value>
+  </data>
+  <data name="YourAccountNotVerified" xml:space="preserve">
+    <value>Your Account Not Verified !</value>
+  </data>
+  <data name="YourAccountNotVerifiedYet" xml:space="preserve">
+    <value>Your Account Is Not Verified Yet !</value>
+  </data>
+  <data name="YourAccountSuspended" xml:space="preserve">
+    <value>Your Account Suspended !</value>
+  </data>
+  <data name="YourAccountVerified" xml:space="preserve">
+    <value>Your Account Verified !</value>
+  </data>
+  <data name="YourAlbumFilesWillDeleteSoon" xml:space="preserve">
+    <value>Your {0} album files will be deleted soon!</value>
+  </data>
+  <data name="YourAlbumWillExpireIn" xml:space="preserve">
+    <value>Your {0} album will expire in {1} !</value>
+    <comment>{0} = album title</comment>
+  </data>
+  <data name="YourSkillIsUnderReview" xml:space="preserve">
+    <value>Your {0} skill is under review !</value>
+  </data>
+  <data name="YourSkillRejected" xml:space="preserve">
+    <value>Your {0} skill has been rejected!</value>
+  </data>
+  <data name="YourSkillsAreUnderReview" xml:space="preserve">
+    <value>Your Skills Are Under Review</value>
+  </data>
+  <data name="YourSkillsAreUnderReviewExept" xml:space="preserve">
+    <value>0 Skills Cant added beacuse of not portfo added for them</value>
+  </data>
+  <data name="YourSkillVerified" xml:space="preserve">
+    <value>Your {0} skill has been verified !</value>
+    <comment>{0} = skill name</comment>
+  </data>
+</root>

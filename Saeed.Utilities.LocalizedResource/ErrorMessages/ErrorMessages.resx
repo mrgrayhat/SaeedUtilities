@@ -1,0 +1,843 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessDenied" xml:space="preserve">
+    <value>Access Denied !</value>
+  </data>
+  <data name="AccountRecoveryNotAvailable" xml:space="preserve">
+    <value>Unable to Recover account at this time.</value>
+  </data>
+  <data name="AccountRegisterationFailed" xml:space="preserve">
+    <value>Sorry, something went wrong during registration. Please try again in a few minutes</value>
+  </data>
+  <data name="AddCartItemError" xml:space="preserve">
+    <value>Add to Cart Field!</value>
+  </data>
+  <data name="AddressIsRequired" xml:space="preserve">
+    <value>Address Is Required</value>
+  </data>
+  <data name="AgreementRequired" xml:space="preserve">
+    <value>You Must Read And Accept Agreement to use our services.</value>
+  </data>
+  <data name="AlbumCantDelete" xml:space="preserve">
+    <value>Album Cant Be Deleted !</value>
+  </data>
+  <data name="AlbumCantUpdate" xml:space="preserve">
+    <value>Album Cant Be Updated!</value>
+  </data>
+  <data name="AlbumCreationFailed" xml:space="preserve">
+    <value>An error occurred while creating new album !</value>
+  </data>
+  <data name="AlbumDeleteFailed" xml:space="preserve">
+    <value>An error occurred while removing album !</value>
+  </data>
+  <data name="AlbumExpired" xml:space="preserve">
+    <value>Album has been expired !</value>
+  </data>
+  <data name="AlbumIsLocked" xml:space="preserve">
+    <value>Album Is Locked</value>
+  </data>
+  <data name="AlbumItemCantBeDeleted" xml:space="preserve">
+    <value>Album Item Can't Be Deleted !</value>
+  </data>
+  <data name="AlbumItemNotFound" xml:space="preserve">
+    <value>No Photo Found For This Album Item !</value>
+  </data>
+  <data name="AlbumNotFound" xml:space="preserve">
+    <value>Album Not Found !</value>
+  </data>
+  <data name="AlbumUpdateFailed" xml:space="preserve">
+    <value>An error occurred while updating album !</value>
+  </data>
+  <data name="AmountNotValid" xml:space="preserve">
+    <value>Amount are NotValid</value>
+  </data>
+  <data name="AttendanceTimeFromIsGreaterThanTo" xml:space="preserve">
+    <value>Photographer Arrival Time Must Be Before Exit Time !</value>
+  </data>
+  <data name="AttendanceTimeFromIsOver" xml:space="preserve">
+    <value>Photographer Arrival Time Can't be from past ! start time must be greater than now and at least 1 Hour Later !</value>
+  </data>
+  <data name="AttendanceTimeNotEqual" xml:space="preserve">
+    <value>Photographer Arrival Time Can't be same as Exit Time !</value>
+  </data>
+  <data name="AttendanceTimeToIsLessThanFrom" xml:space="preserve">
+    <value>Photographer Exit Time Must Be Greater Than Arrival Time !</value>
+  </data>
+  <data name="AttendanceToIsOver" xml:space="preserve">
+    <value>Photographer Exit Time Can't be from past ! End time must be at least 1 Hour greater, than start time.</value>
+  </data>
+  <data name="AuthorizationServerNotAvailable" xml:space="preserve">
+    <value>Authorization server is not available !</value>
+  </data>
+  <data name="AvailabilityCheckFailed" xml:space="preserve">
+    <value>Availability Check Has Been Failed !</value>
+  </data>
+  <data name="BadImageQuality" xml:space="preserve">
+    <value>Image quality is very bad !</value>
+  </data>
+  <data name="BankOutOfService" xml:space="preserve">
+    <value>Bank Out Of Service</value>
+  </data>
+  <data name="CacheError" xml:space="preserve">
+    <value>Chaching System Error !</value>
+  </data>
+  <data name="CantDeleteProjectInThisState" xml:space="preserve">
+    <value>You can't delete this project in this state !</value>
+  </data>
+  <data name="CantRollbackPrepayment" xml:space="preserve">
+    <value>Can't Roll Back Prepayment !</value>
+  </data>
+  <data name="CartEmpty" xml:space="preserve">
+    <value>Cart Is Empty</value>
+  </data>
+  <data name="CategoryNotFound" xml:space="preserve">
+    <value>Category Not Found</value>
+  </data>
+  <data name="ChatNotFound" xml:space="preserve">
+    <value>This chat is not exit !</value>
+  </data>
+  <data name="ChatRoomDisabled" xml:space="preserve">
+    <value>Chat is disabled</value>
+  </data>
+  <data name="ChatRoomIsNotExist" xml:space="preserve">
+    <value>Chat removed or is not exist anymore !</value>
+  </data>
+  <data name="CityCurrentlyNotAvailable" xml:space="preserve">
+    <value>Currently we  dont service on your city. Axeto wil be available in your city</value>
+  </data>
+  <data name="ClientCredentialsRequired" xml:space="preserve">
+    <value>Client Credentials Are Required !</value>
+  </data>
+  <data name="ClientLocked" xml:space="preserve">
+    <value>Your Access Has Been Locked</value>
+  </data>
+  <data name="CodeExpired" xml:space="preserve">
+    <value>This Code has expired !</value>
+  </data>
+  <data name="CommentNotAllowedThisTime" xml:space="preserve">
+    <value>Comment Not Allowed at This Time</value>
+  </data>
+  <data name="ConcurrencyError" xml:space="preserve">
+    <value>Concurrency error occurred</value>
+  </data>
+  <data name="ConditionHaveChild" xml:space="preserve">
+    <value>Remove Parent Condition with child as not allowed</value>
+  </data>
+  <data name="ConfirmPasswordNotMatch" xml:space="preserve">
+    <value>The Confirm password does not match !</value>
+  </data>
+  <data name="Coudn'tVerifyIdentity" xml:space="preserve">
+    <value>Sorry, We Couldn't Verify You'r Identity !</value>
+  </data>
+  <data name="CrossLoginDenied" xml:space="preserve">
+    <value>Access with this acount to this application is denied</value>
+  </data>
+  <data name="CustomerIdInvalid" xml:space="preserve">
+    <value>CustomerId are Invalid</value>
+  </data>
+  <data name="DataEntryError" xml:space="preserve">
+    <value>The Entered Value Is Not Valid !</value>
+  </data>
+  <data name="DateTimeCalculationFailed" xml:space="preserve">
+    <value>خطای محاسبه اختلاف زمانی !</value>
+  </data>
+  <data name="DecryptionFailed" xml:space="preserve">
+    <value>Decryption operation failed !</value>
+  </data>
+  <data name="DelayReportSubmited" xml:space="preserve">
+    <value>Delay Report Submited</value>
+  </data>
+  <data name="DeleteFailed" xml:space="preserve">
+    <value>Sorry, something went wrong during the deletion. Please try again in a few minutes</value>
+  </data>
+  <data name="DiscountCodeIsInvalid" xml:space="preserve">
+    <value>Discount Code Is Invalid</value>
+  </data>
+  <data name="DiscountExpired" xml:space="preserve">
+    <value>Discount Time Expired</value>
+  </data>
+  <data name="DiscountLimitationTimes" xml:space="preserve">
+    <value>Discount Limitation Times Error</value>
+  </data>
+  <data name="DownloadError" xml:space="preserve">
+    <value>Error While Downloading !</value>
+  </data>
+  <data name="DownloadFailed" xml:space="preserve">
+    <value>Download operation has been failed !</value>
+  </data>
+  <data name="Duplicate" xml:space="preserve">
+    <value>Duplicate !</value>
+  </data>
+  <data name="EmailAlreadyUsed" xml:space="preserve">
+    <value>This email was used by someone else. If this email belongs to you, try to recover your account by email.</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Empty !</value>
+  </data>
+  <data name="EmptyMessage" xml:space="preserve">
+    <value>Message can't be empty !</value>
+  </data>
+  <data name="EncryptionFailed" xml:space="preserve">
+    <value>Encryption process has been failed !</value>
+  </data>
+  <data name="ErrorOccurred" xml:space="preserve">
+    <value>An Error Occured !</value>
+  </data>
+  <data name="ErrorSave" xml:space="preserve">
+    <value>An error occurred while saving</value>
+  </data>
+  <data name="ExtendAlbumTime" xml:space="preserve">
+    <value>0 days remain for Extend Storing Album for 1 day</value>
+  </data>
+  <data name="FailedOperation" xml:space="preserve">
+    <value>The operation was not successful</value>
+  </data>
+  <data name="FileFormatIsNowAllowed" xml:space="preserve">
+    <value>This file type is not allowed to upload !</value>
+  </data>
+  <data name="FileNotFound" xml:space="preserve">
+    <value>File not found !</value>
+  </data>
+  <data name="FileSignatureNotValid" xml:space="preserve">
+    <value>File {0] signature is not valid !</value>
+  </data>
+  <data name="FileSizeIsLessThanMb" xml:space="preserve">
+    <value>File size is less than {0} mb !</value>
+  </data>
+  <data name="FileSizeIsMoreThanMb" xml:space="preserve">
+    <value>File size is more than {0} mb !</value>
+  </data>
+  <data name="GatewayServerNotAvailable" xml:space="preserve">
+    <value>Gateway server is not available !</value>
+  </data>
+  <data name="IllegalPhotoContent" xml:space="preserve">
+    <value>Photo Content Is Illegal !</value>
+  </data>
+  <data name="ImageAccessIsPrivate" xml:space="preserve">
+    <value>Accessing to this content is limited !</value>
+  </data>
+  <data name="ImageAlreadyExist" xml:space="preserve">
+    <value>Image Already Exist</value>
+  </data>
+  <data name="ImageResolutionIsLow" xml:space="preserve">
+    <value>Image resolution is very low !</value>
+  </data>
+  <data name="ImageSizeIsLargerThanMb" xml:space="preserve">
+    <value>Image size is larger than {0} mb !</value>
+  </data>
+  <data name="ImageSizeIsLessThanMb" xml:space="preserve">
+    <value>Image size is less than {0} mb !</value>
+  </data>
+  <data name="IncorrectPassword" xml:space="preserve">
+    <value>Password is incorrect !</value>
+  </data>
+  <data name="InformationNotAvailable" xml:space="preserve">
+    <value>No information available at this time !</value>
+  </data>
+  <data name="InputBlocked" xml:space="preserve">
+    <value>Input blocked !</value>
+  </data>
+  <data name="IntegrityCheckFailed" xml:space="preserve">
+    <value>Data Integrity Failed</value>
+  </data>
+  <data name="InvalidAge" xml:space="preserve">
+    <value>Age is not valid !</value>
+  </data>
+  <data name="InvalidAlbumPrice" xml:space="preserve">
+    <value>Album Price Is Not Valid !</value>
+  </data>
+  <data name="InvalidAttendanceTime" xml:space="preserve">
+    <value>زمان های شروع و پایان معتبر نمی باشند !</value>
+  </data>
+  <data name="InvalidCredentials" xml:space="preserve">
+    <value>Your credentials are invalid !</value>
+  </data>
+  <data name="InvalidDataType" xml:space="preserve">
+    <value>Input data type is not valid !</value>
+  </data>
+  <data name="InvalidDate" xml:space="preserve">
+    <value>Date is not valid !</value>
+  </data>
+  <data name="InvalidDateTime" xml:space="preserve">
+    <value>Date and time are not valid !</value>
+  </data>
+  <data name="InvalidDays" xml:space="preserve">
+    <value>days are not valid !</value>
+  </data>
+  <data name="InvalidDecryptionKey" xml:space="preserve">
+    <value>Invalid Decryption Key !</value>
+  </data>
+  <data name="InvalidEmailAddress" xml:space="preserve">
+    <value>Email address is invalid !</value>
+  </data>
+  <data name="InvalidEncryptionKey" xml:space="preserve">
+    <value>Encryption key is not valid !</value>
+  </data>
+  <data name="InvalidEndTime" xml:space="preserve">
+    <value>end time is not valid !</value>
+  </data>
+  <data name="InvalidFileType" xml:space="preserve">
+    <value>File type is not valid !</value>
+  </data>
+  <data name="InvalidFilters" xml:space="preserve">
+    <value>The filters are invalid !</value>
+  </data>
+  <data name="InvalidFormat" xml:space="preserve">
+    <value>Input format is not valid !</value>
+  </data>
+  <data name="InvalidImageFormat" xml:space="preserve">
+    <value>Image format is not valid !</value>
+  </data>
+  <data name="InvalidInputLength" xml:space="preserve">
+    <value>Input value length is not valid !</value>
+  </data>
+  <data name="InvalidInputValue" xml:space="preserve">
+    <value>Input value is not valid !</value>
+  </data>
+  <data name="InvalidMultiplier" xml:space="preserve">
+    <value>Multiplier Is Not Valid !</value>
+  </data>
+  <data name="InvalidNationalNumber" xml:space="preserve">
+    <value>The national code is not valid !</value>
+  </data>
+  <data name="InvalidPhoneNumber" xml:space="preserve">
+    <value>Phone Number is invalid !</value>
+  </data>
+  <data name="InvalidPhotoPrice" xml:space="preserve">
+    <value>Photo Price Is Not Valid !</value>
+  </data>
+  <data name="InvalidPrepayment" xml:space="preserve">
+    <value>Prepayment is not valid !</value>
+  </data>
+  <data name="InvalidQrCode" xml:space="preserve">
+    <value>QR Code is not valid !</value>
+  </data>
+  <data name="InvalidStartTime" xml:space="preserve">
+    <value>start time is not valid !</value>
+  </data>
+  <data name="InvalidTextCharacters" xml:space="preserve">
+    <value>Text Contains Invalid Characters !</value>
+  </data>
+  <data name="InvalidTime" xml:space="preserve">
+    <value>Time is not valid !</value>
+  </data>
+  <data name="InvalidTimezone" xml:space="preserve">
+    <value>Invalid Timezone Id !</value>
+  </data>
+  <data name="InvalidTotalDays" xml:space="preserve">
+    <value>Total Days Is Not Valid !</value>
+  </data>
+  <data name="InvalidTransaction" xml:space="preserve">
+    <value>Transaction is not valid !</value>
+  </data>
+  <data name="InvalidTwoStepVerifyCode" xml:space="preserve">
+    <value>Two Step Verification Code is not valid !</value>
+  </data>
+  <data name="InvalidUser" xml:space="preserve">
+    <value>Invalid User !</value>
+  </data>
+  <data name="InvalidUsername" xml:space="preserve">
+    <value>Username is not valid !</value>
+  </data>
+  <data name="InvalidUsernameOrPassword" xml:space="preserve">
+    <value>Invalid Username Or Password</value>
+  </data>
+  <data name="JudgementStopByePhoto" xml:space="preserve">
+    <value>Judgement Request Cant Submited Because of buying Photo from album</value>
+  </data>
+  <data name="LimitedToCustomers" xml:space="preserve">
+    <value>This service is limited to customers !</value>
+  </data>
+  <data name="LimitedToEditorProviders" xml:space="preserve">
+    <value>This service is limited to editor providers !</value>
+  </data>
+  <data name="LimitedToPhotographerProviders" xml:space="preserve">
+    <value>This service is limited to photographer providers !</value>
+  </data>
+  <data name="LimitedToServiceProviders" xml:space="preserve">
+    <value>This service is limited to service providers !</value>
+  </data>
+  <data name="MaxAllowedTryReached" xml:space="preserve">
+    <value>You have reached the maximum number of failed attempts !</value>
+  </data>
+  <data name="MaximumCharacters" xml:space="preserve">
+    <value>Maximum input characters is {0} !</value>
+  </data>
+  <data name="MaxLength" xml:space="preserve">
+    <value>The Maximum Length is {0} !</value>
+  </data>
+  <data name="Maxlength25" xml:space="preserve">
+    <value>The Maximum Length of {0} is 25 character !</value>
+  </data>
+  <data name="MaxProjectDurationIs" xml:space="preserve">
+    <value>Project time can be up to {0} working hours !</value>
+  </data>
+  <data name="MaxProjectDurationIsEightHour" xml:space="preserve">
+    <value>Project time can be up to 8 working hours !</value>
+  </data>
+  <data name="MimeTypeNotAllowed" xml:space="preserve">
+    <value>This type of file is not allowed !</value>
+  </data>
+  <data name="MinimumCharacters" xml:space="preserve">
+    <value>Minimum input characters is {0} !</value>
+  </data>
+  <data name="MinLength" xml:space="preserve">
+    <value>The Minimum Length is {0} !</value>
+  </data>
+  <data name="NationalCodeRequired" xml:space="preserve">
+    <value>National Code Required</value>
+  </data>
+  <data name="NegativeValueNotValid" xml:space="preserve">
+    <value>Negative numbers are not allowed !</value>
+  </data>
+  <data name="NewOfferOperationField" xml:space="preserve">
+    <value>Offer Not Found Or Is Accepted Later</value>
+  </data>
+  <data name="NoAddressProvided" xml:space="preserve">
+    <value>No Address Provided !</value>
+  </data>
+  <data name="NoAdminAvailable" xml:space="preserve">
+    <value>No Admin Are Available !</value>
+  </data>
+  <data name="NoBlockedMoney" xml:space="preserve">
+    <value>No Blocked Money Yet</value>
+  </data>
+  <data name="NoLocationProvided" xml:space="preserve">
+    <value>No Location Provided !</value>
+  </data>
+  <data name="NoPhotoProvided" xml:space="preserve">
+    <value>No Photo Provided !</value>
+  </data>
+  <data name="NoProviderAvailableAtThisTime" xml:space="preserve">
+    <value>No service provider are available at this time !</value>
+  </data>
+  <data name="NoProviderFound" xml:space="preserve">
+    <value>No service provider found !</value>
+  </data>
+  <data name="NoProviderFoundFreeTime" xml:space="preserve">
+    <value>No service provider are free at this time !</value>
+  </data>
+  <data name="NoProviderFoundInCategory" xml:space="preserve">
+    <value>No service provider in this category are available at this time !</value>
+  </data>
+  <data name="NoProviderFoundInCity" xml:space="preserve">
+    <value>No service provider in this city are available at this time !</value>
+  </data>
+  <data name="NoResponse" xml:space="preserve">
+    <value>No Response Received !</value>
+  </data>
+  <data name="NoServerSpecified" xml:space="preserve">
+    <value>No Server Specifiedd !</value>
+  </data>
+  <data name="NoSupportAvailable" xml:space="preserve">
+    <value>No Support Are Available !</value>
+  </data>
+  <data name="NoSymbolAllowed" xml:space="preserve">
+    <value>No Symbol character Allowed !</value>
+  </data>
+  <data name="NotAlbumOwner" xml:space="preserve">
+    <value>You are not album owner !</value>
+  </data>
+  <data name="NotAllowed" xml:space="preserve">
+    <value>Not Allowed !</value>
+  </data>
+  <data name="NotAllowedCharacters" xml:space="preserve">
+    <value>Input characters are not allowed !</value>
+  </data>
+  <data name="NotAllowedForThisSpecialty" xml:space="preserve">
+    <value>Not Allowed For This Specialty</value>
+  </data>
+  <data name="NotAvailable" xml:space="preserve">
+    <value>Not Available !</value>
+  </data>
+  <data name="NotConfirmedAccount" xml:space="preserve">
+    <value>Not Confirmed Account</value>
+  </data>
+  <data name="NotEnqueued" xml:space="preserve">
+    <value>Not Enqueued !</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>No Item Found !</value>
+  </data>
+  <data name="Nothing" xml:space="preserve">
+    <value>Nothing Found !</value>
+  </data>
+  <data name="NoTitleProvided" xml:space="preserve">
+    <value>No Title Provided !</value>
+  </data>
+  <data name="NotMatch" xml:space="preserve">
+    <value>Not Match !</value>
+  </data>
+  <data name="NotResourceOwner" xml:space="preserve">
+    <value>You are not owner of this resource or have no permission to access !</value>
+  </data>
+  <data name="NotYetConfirmed" xml:space="preserve">
+    <value>Not Yet Confirmed</value>
+  </data>
+  <data name="OffensiveNamesBlocked" xml:space="preserve">
+    <value>Offensive Names Are Blocked !</value>
+  </data>
+  <data name="OffensiveWordsBlocked" xml:space="preserve">
+    <value>Offensive and Illegal Words Are Blocked !</value>
+  </data>
+  <data name="OnlyAlpabet" xml:space="preserve">
+    <value>Only Alpabetic characters are allowed</value>
+  </data>
+  <data name="OnlyNumber" xml:space="preserve">
+    <value>Only Numbers are allowed</value>
+  </data>
+  <data name="OrderServerNotAvailable" xml:space="preserve">
+    <value>Order server is not available !</value>
+  </data>
+  <data name="PasswordNotMatch" xml:space="preserve">
+    <value>Password does not match !</value>
+  </data>
+  <data name="PaymentServiceError" xml:space="preserve">
+    <value>Payment Service Error</value>
+  </data>
+  <data name="PhoneNumberAlreadyUsed" xml:space="preserve">
+    <value>This phone number was used by someone else. If this number belongs to you, try to recover your account by phone number.</value>
+  </data>
+  <data name="PhotoNotFound" xml:space="preserve">
+    <value>Photo Not Found ! may be removed or not exist.</value>
+  </data>
+  <data name="PrepaymentNotAvailable" xml:space="preserve">
+    <value>Prepayment info is not available !</value>
+  </data>
+  <data name="ProjectAlbumAlreadyExist" xml:space="preserve">
+    <value>This Project have an album already !</value>
+  </data>
+  <data name="ProjectAlbumNotExist" xml:space="preserve">
+    <value>No Album found for this project !</value>
+  </data>
+  <data name="ProjectALbumPriceValidationError" xml:space="preserve">
+    <value>Album Price Cant Assigned under prepayment</value>
+  </data>
+  <data name="ProjectAlredyDoneForReport" xml:space="preserve">
+    <value>Project Alredy Done For Report</value>
+  </data>
+  <data name="ProjectCancelled" xml:space="preserve">
+    <value>Project Has Been Cancelled !</value>
+  </data>
+  <data name="ProjectCreationFailed" xml:space="preserve">
+    <value>New project creation has been failed !</value>
+  </data>
+  <data name="ProjectDurationIsZero" xml:space="preserve">
+    <value>Project time should be more than an hour !</value>
+  </data>
+  <data name="ProjectExpired" xml:space="preserve">
+    <value>Project Has Been Expired !</value>
+  </data>
+  <data name="ProjectIdInvalid" xml:space="preserve">
+    <value>Project Id Invalid</value>
+  </data>
+  <data name="ProjectOfferingLocked" xml:space="preserve">
+    <value>Project offering is locked !</value>
+  </data>
+  <data name="ProjectOfferingTimeExpired" xml:space="preserve">
+    <value>The project offering time has been ended !</value>
+  </data>
+  <data name="ProjectProcessingFailed" xml:space="preserve">
+    <value>Project Registeration Process Has Been Failed !</value>
+  </data>
+  <data name="ProjectStateIsNotUploading" xml:space="preserve">
+    <value>Only Uploading State will allowed you to create album</value>
+  </data>
+  <data name="ProjectStateMustDone" xml:space="preserve">
+    <value>Project StateMust Done</value>
+  </data>
+  <data name="ProjectUnderOneHour" xml:space="preserve">
+    <value>Due Time Of project must greater than one hour</value>
+  </data>
+  <data name="ReportFailed" xml:space="preserve">
+    <value>Report Failed !</value>
+  </data>
+  <data name="Required" xml:space="preserve">
+    <value>{0} is required !</value>
+  </data>
+  <data name="ResetPasswordFailed" xml:space="preserve">
+    <value>Password Reset Failed !</value>
+  </data>
+  <data name="ResourceAccessLimited" xml:space="preserve">
+    <value>Access to the desired resource is restricted !</value>
+  </data>
+  <data name="SecurityConditionError" xml:space="preserve">
+    <value>Security Condition Error !</value>
+  </data>
+  <data name="SendMessageFail" xml:space="preserve">
+    <value>Couldn't Send Message at this time !</value>
+  </data>
+  <data name="ServerOrResourceDown" xml:space="preserve">
+    <value>Server or resouce is down !</value>
+  </data>
+  <data name="ServiceLoadWarning" xml:space="preserve">
+    <value>Service Is Under High Load !</value>
+  </data>
+  <data name="ShebaNumberRequired" xml:space="preserve">
+    <value>Sheba Number Required</value>
+  </data>
+  <data name="SkillNotMatch" xml:space="preserve">
+    <value>You'r skill is not match !</value>
+  </data>
+  <data name="SkillPending" xml:space="preserve">
+    <value>Skill Pending</value>
+  </data>
+  <data name="SoonForExtendAlbum" xml:space="preserve">
+    <value>Album can extend 0 days before Expiration</value>
+  </data>
+  <data name="SpecialityAlreadyExist" xml:space="preserve">
+    <value>Speciality Already Exist</value>
+  </data>
+  <data name="SpecialtyTypeNotMatch" xml:space="preserve">
+    <value>You'r specialty not match !</value>
+  </data>
+  <data name="SpRejectProject" xml:space="preserve">
+    <value>Project 0 Rejected by selected Specialist </value>
+  </data>
+  <data name="StorageServerNotAvailable" xml:space="preserve">
+    <value>Storage server is not available !</value>
+  </data>
+  <data name="SupportedFileFormats" xml:space="preserve">
+    <value>Only this formats are supported : {0}</value>
+  </data>
+  <data name="SystemIsUnderUpgrade" xml:space="preserve">
+    <value>System is under upgrade. please wait a few minutes !</value>
+  </data>
+  <data name="SystemNotAvailable" xml:space="preserve">
+    <value>System is not available at this time !</value>
+  </data>
+  <data name="TelephoneNumberRequired" xml:space="preserve">
+    <value>Telephone Number Required</value>
+  </data>
+  <data name="TicketClosed" xml:space="preserve">
+    <value>Ticket Closed</value>
+  </data>
+  <data name="TokenExpired" xml:space="preserve">
+    <value>The Token has expired !</value>
+  </data>
+  <data name="ToManyRequest" xml:space="preserve">
+    <value>Sorry, you have too many requests. Please try again after a while!</value>
+  </data>
+  <data name="TooLong" xml:space="preserve">
+    <value>Input is too long !</value>
+  </data>
+  <data name="TooShort" xml:space="preserve">
+    <value>Input is too short !</value>
+  </data>
+  <data name="TrackingFailed" xml:space="preserve">
+    <value>Tracking Failed !</value>
+  </data>
+  <data name="TwoStepVerificationFailed" xml:space="preserve">
+    <value>Two Step Verification Failed !</value>
+  </data>
+  <data name="TwoStepVerifyRequired" xml:space="preserve">
+    <value>Two Step Verification Required !</value>
+  </data>
+  <data name="UnableToAuthorization" xml:space="preserve">
+    <value>Unable to authorize you'r accessat this time. please try again or contact with support team.</value>
+  </data>
+  <data name="UnauthorizedAccess" xml:space="preserve">
+    <value>Your access is unauthorized !</value>
+  </data>
+  <data name="UnauthorizedResourceAccess" xml:space="preserve">
+    <value>You do not have permission to access this resource !</value>
+  </data>
+  <data name="Unavailable" xml:space="preserve">
+    <value>Unavailable !</value>
+  </data>
+  <data name="Unsuccessful" xml:space="preserve">
+    <value>Was unsuccessful !</value>
+  </data>
+  <data name="UnSuccessfullProfileUpdate" xml:space="preserve">
+    <value>Unfortunately, something went wrong while updating your profile! Please try again in a few minutes</value>
+  </data>
+  <data name="UpdateFailed" xml:space="preserve">
+    <value>Unfortunately, something went wrong during the update. Please try again in a few minutes</value>
+  </data>
+  <data name="UploadCancelled" xml:space="preserve">
+    <value>Upload operation has been cancelled !</value>
+  </data>
+  <data name="UploadFailed" xml:space="preserve">
+    <value>Upload operation has been failed !</value>
+  </data>
+  <data name="UploadingReportFaild" xml:space="preserve">
+    <value>Uploading time will not expired</value>
+  </data>
+  <data name="UserIsNotProvider" xml:space="preserve">
+    <value>User is not in service providers group !</value>
+  </data>
+  <data name="UsernameAlreadyUsed" xml:space="preserve">
+    <value>This username has already been chosen by someone else. Please select another username.</value>
+  </data>
+  <data name="UsernameCantBePhoneNo" xml:space="preserve">
+    <value>Username can't be phone number! please choose a good nickname as your identity.</value>
+  </data>
+  <data name="UserNameCantBeSameAsPhoneNo" xml:space="preserve">
+    <value>User name can't be same as your phone number! please choose you'r name or nickname.</value>
+  </data>
+  <data name="UsernameExist" xml:space="preserve">
+    <value>This username has already been used by someone else !</value>
+  </data>
+  <data name="UsernameIsBanned" xml:space="preserve">
+    <value>This username is banned ! Please select a valid username.</value>
+  </data>
+  <data name="UsernameNotFound" xml:space="preserve">
+    <value>Username not found !</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>User not found !</value>
+  </data>
+  <data name="ValidationError" xml:space="preserve">
+    <value>On Or More Validation Error Occurred !</value>
+  </data>
+  <data name="Walletbalanceisnotenough" xml:space="preserve">
+    <value>Wallet balance is not enough</value>
+  </data>
+  <data name="YouAlreadyOfferedThisProject" xml:space="preserve">
+    <value>You Can Send Only 1 Offer For This Project. you can remove and send a new one if you changed you'r mind !</value>
+  </data>
+  <data name="YouAreNotResourceOwner" xml:space="preserve">
+    <value>You are not owner of this resource !</value>
+  </data>
+  <data name="YouCantCancelOfferAtThisState" xml:space="preserve">
+    <value>You can't cancel your offer at this state !</value>
+  </data>
+  <data name="YouCantDeleteOfferAtThisState" xml:space="preserve">
+    <value>You can't remove your offer at this state !</value>
+  </data>
+  <data name="YouCantOfferThisProjectType" xml:space="preserve">
+    <value>You can't send offer for this type of project ! you may have no matched or confirmed skill.</value>
+  </data>
+  <data name="YourAccessBlocked" xml:space="preserve">
+    <value>Your access is blocked !</value>
+  </data>
+  <data name="YourAccountIsDeActive" xml:space="preserve">
+    <value>You'r account is not active ! please first active your account !</value>
+  </data>
+  <data name="YourAccountIsNotConfirmed" xml:space="preserve">
+    <value>You'r account is not confirmed yet ! please contact with support team or email support@axeto.net</value>
+  </data>
+  <data name="YourAccountLockedOut" xml:space="preserve">
+    <value>Your account has been temporarily locked due to repeated unsuccessful login attempts.</value>
+  </data>
+  <data name="YourAccountLockedOutUntil" xml:space="preserve">
+    <value>Your account has been temporarily locked due to repeated unsuccessful login attempts. please try again in {0} </value>
+  </data>
+</root>

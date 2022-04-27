@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivationLinkSent" xml:space="preserve">
+    <value>لینک فعالسازی برای شما ارسال گردید</value>
+  </data>
+  <data name="AddCartSuccess" xml:space="preserve">
+    <value>آیتم با موفقیت به سبد خرید شما اضافه گردید</value>
+  </data>
+  <data name="AddTicketSuccess" xml:space="preserve">
+    <value>ثبت تیکت با موفقیت انجام شد</value>
+  </data>
+  <data name="AffischTimeMessage" xml:space="preserve">
+    <value>حداکثر زمان مورد نیاز برای رسیدن به محل پروژه 0 دقیقه می باشد. لطفا به زمانبندی خود دقت نمایید</value>
+  </data>
+  <data name="AlbumCreatedSuccessfully" xml:space="preserve">
+    <value>تبریک،آلبوم با موفقیت ساخته شد</value>
+  </data>
+  <data name="AlbumCreatedSuccessfullySms" xml:space="preserve">
+    <value>تبریک،آلبوم 0 با موفقیت ساخته شد</value>
+  </data>
+  <data name="BiographyEmpty" xml:space="preserve">
+    <value>من از عکستو استفاده میکنم</value>
+  </data>
+  <data name="BuyFullAlbumComplete" xml:space="preserve">
+    <value>آلبوم فوق با موفقیت خریداری شد</value>
+  </data>
+  <data name="CancellationVerify" xml:space="preserve">
+    <value>Please Verify Cancellation</value>
+  </data>
+  <data name="ChangeProjectState" xml:space="preserve">
+    <value>وضعیت پروژه به {0} تغییر کرد</value>
+  </data>
+  <data name="CheckUploadingTime" xml:space="preserve">
+    <value>زمان قانون آپلود به اتمام رسیده است . کسر امتیاز درج گردید</value>
+  </data>
+  <data name="ConfirmLink" xml:space="preserve">
+    <value>لینک فعالسازی حساب کاربری عکستو : {0}</value>
+  </data>
+  <data name="ContactSupportIfNeeded" xml:space="preserve">
+    <value>در صورت نیاز لطفا با پشتیبانی تماس حاصل فرمایید</value>
+  </data>
+  <data name="DiscountAppliedSuccess" xml:space="preserve">
+    <value>مبلغ {0} تومان تخفیف اعمال گردید</value>
+  </data>
+  <data name="DistributedCacheUnavailable" xml:space="preserve">
+    <value>کش توزیع شده در دسترس نیست!</value>
+  </data>
+  <data name="EULAPolicy" xml:space="preserve">
+    <value>توافق نامه کاربر استفاده کننده. شما با تایید این توافق نامه، موافقت خود را با موارد ذکر شده اعلام می نمایید.</value>
+    <comment>eula contract</comment>
+  </data>
+  <data name="ExtendAlbumSuccessfully" xml:space="preserve">
+    <value>تمدید آلبوم با موفقیت انجام شد</value>
+  </data>
+  <data name="IdentityRejected" xml:space="preserve">
+    <value>هویت کلاینت {0} رد شد !</value>
+  </data>
+  <data name="InquiryAvailable" xml:space="preserve">
+    <value>Service Providers Are Available !</value>
+  </data>
+  <data name="InquiryNotAvailable" xml:space="preserve">
+    <value>No Service Provider Are Available With This Conditions !</value>
+  </data>
+  <data name="IntrusionDetected" xml:space="preserve">
+    <value>یک مورد نفوذ به سیستم تشخیص داده شد {0} !</value>
+  </data>
+  <data name="judgementStateChangeToFinal" xml:space="preserve">
+    <value>نتیجه داوری در پروژه 0 به نفع 1 صادر گردید</value>
+  </data>
+  <data name="JudgementStateToPend" xml:space="preserve">
+    <value>وضعیت داوری پروژه 0 به 1 تغییر کرد</value>
+  </data>
+  <data name="JudgementSubmitedCu" xml:space="preserve">
+    <value>درخواست داوری شما برای پروژه 0 ثبت گردید</value>
+  </data>
+  <data name="JudgementSubmitedSp" xml:space="preserve">
+    <value>یک درخواست داوری برای پروژه 0 ثبت گردید</value>
+  </data>
+  <data name="MultipleLoginAttempt" xml:space="preserve">
+    <value>تلاش مکرر جهت ورود به {0} شناسایی شد !</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PasswordLinkSent" xml:space="preserve">
+    <value>لینک تغییر رمز عبور برای شما ارسال گردید</value>
+  </data>
+  <data name="PendingSkillMessage" xml:space="preserve">
+    <value>درخواست شما توسط عکستو در دست بررسی می باشد</value>
+  </data>
+  <data name="PortfoSendSuccessfully" xml:space="preserve">
+    <value> تصویر شما با موفقیت ثبت شد. پس از تایید عکستو در پروفایل شما قرار می گیرد</value>
+  </data>
+  <data name="PrePaymentRemainMessage" xml:space="preserve">
+    <value>در حال حاضر شما می توانید 0 عدد عکس از این آلبوم را با کسر از پیش پرداخت خرید نمایید</value>
+  </data>
+  <data name="PrepaymentsDone" xml:space="preserve">
+    <value>پیش پرداخت واریز گردید</value>
+  </data>
+  <data name="PrivacyPolicy" xml:space="preserve">
+    <value>سیاست های حفظ حریم شخصی</value>
+  </data>
+  <data name="Proccessing" xml:space="preserve">
+    <value>درخواست شما در حال پردازش می باشد</value>
+  </data>
+  <data name="ProjectAlbumReminder" xml:space="preserve">
+    <value>یادآوری انقضا آلبوم برای پروژه {0}</value>
+  </data>
+  <data name="ProjectDay" xml:space="preserve">
+    <value>یادآور! شما امروز یک پروژه دارید</value>
+  </data>
+  <data name="ProjectDayMessage" xml:space="preserve">
+    <value>پروژه {0} در این تاریخ نوبت عکاسی دارد</value>
+  </data>
+  <data name="ProjectNotFoundForCity" xml:space="preserve">
+    <value>پروژه ای در شهر شما یافت نشد</value>
+  </data>
+  <data name="ProjectNotFoundForFreeTime" xml:space="preserve">
+    <value>پروژه ای در زمان آزاد شما یافت نشد</value>
+  </data>
+  <data name="ProjectNotFoundForSKill" xml:space="preserve">
+    <value>پروژه ای با مهارت شما یافت نشد</value>
+  </data>
+  <data name="ProjectNotFoundForSpeciality" xml:space="preserve">
+    <value>پروژه ای با تخصص شما یافت نشد</value>
+  </data>
+  <data name="ProjectOfferAcceptedSpVersion" xml:space="preserve">
+    <value>پیشنهاد شما برای پروژه {0} مورد تایید قرار گرفت</value>
+  </data>
+  <data name="ProjectOrdeAvailableEmailMessage" xml:space="preserve">
+    <value>یک پروژه با تخصص های شما در دسترس است !</value>
+  </data>
+  <data name="ProjectOrderCancelled" xml:space="preserve">
+    <value>پروژه {0} لغو شد</value>
+  </data>
+  <data name="ProjectOrderCreatedEmailMessage" xml:space="preserve">
+    <value>سفارش پروژه شما در تاریخ {0} با موفقیت ثبت گردید</value>
+  </data>
+  <data name="ProjectOrderExpired" xml:space="preserve">
+    <value>پروژه {0} منقضی شد</value>
+  </data>
+  <data name="ProjectOrderIsPending" xml:space="preserve">
+    <value>پروژه {0} به حالت تعلیق در آمد</value>
+  </data>
+  <data name="ProjectOrderOfferAcceptedCuMessage" xml:space="preserve">
+    <value>پروژه شما تایید پیشنهاد شد</value>
+  </data>
+  <data name="ProjectOrderOfferAcceptedSpMessage" xml:space="preserve">
+    <value>پیشنهاد شما برای پروژه {0} انتخاب شد</value>
+  </data>
+  <data name="ProjectOrderOfferCreatedEmailMessage" xml:space="preserve">
+    <value>پیشنهاد جدیدی برای پروژه {0} ثبت گردید.</value>
+  </data>
+  <data name="ProjectOrderTimingUpdated" xml:space="preserve">
+    <value>زمان بندی پروژه {0} به روز شد</value>
+  </data>
+  <data name="ProjectOrderUpdated" xml:space="preserve">
+    <value>پروژه {0} به روز شد</value>
+  </data>
+  <data name="ProjectPrepaymentTimeOut" xml:space="preserve">
+    <value>پروژه شما به دلیل عدم پرداخت پیش پرداخت لغو گردید</value>
+  </data>
+  <data name="ProjectsReminder" xml:space="preserve">
+    <value>یادآور پروژه</value>
+  </data>
+  <data name="ProjectStarted" xml:space="preserve">
+    <value>پروژه در وضعیت اجرا قرار گرفت</value>
+  </data>
+  <data name="ProjectStateUploading" xml:space="preserve">
+    <value>وضعیت پروژه به بارگذاری تغییر یافت</value>
+  </data>
+  <data name="ProviderSkillApproved" xml:space="preserve">
+    <value>مهارت {0} خدمات دهنده {1} تایید شد</value>
+  </data>
+  <data name="ProviderSkillRejected" xml:space="preserve">
+    <value>مهارت {0} خدمات دهنده {1} رد شد</value>
+  </data>
+  <data name="ProviderSpecialtyChanged" xml:space="preserve">
+    <value>تخصص خدمات دهنده {0} تغییر کرد</value>
+  </data>
+  <data name="QueryTookTimeToCompelete" xml:space="preserve">
+    <value>{0} طول کشید تا کوئری {1} اجرا شود !</value>
+  </data>
+  <data name="RejectProjectSuccess" xml:space="preserve">
+    <value>پروژه از طرف خدمات دهنده رد شد</value>
+  </data>
+  <data name="ServerUnderUpdate" xml:space="preserve">
+    <value>ما در حال به روزرسانی سرور هستیم، از صبر شما صمیمانه سپاسگذاریم</value>
+  </data>
+  <data name="ServiceIsNotReachable" xml:space="preserve">
+    <value>سرویس {0} قابل دستیابی نیست !</value>
+  </data>
+  <data name="ServiceProviderArrived" xml:space="preserve">
+    <value>آیا متخصص به محل شما رسیده است؟</value>
+  </data>
+  <data name="SpAcceptOffer" xml:space="preserve">
+    <value>پیشنهاد شما برای این پروژه تایید شد</value>
+  </data>
+  <data name="spConfirmationSuccess" xml:space="preserve">
+    <value>حساب شما با موفقیت فعال گردید</value>
+  </data>
+  <data name="specialityAndSkillAccessDenied" xml:space="preserve">
+    <value>پروژه فوق در مهارت و یا تخصص شما تعریف نشده است</value>
+  </data>
+  <data name="SpecialitySubmitet" xml:space="preserve">
+    <value>مهارت شما ثبت گردید.پس از تایید توسط اکستو به قابلیت های شما اضافه خواهد شد</value>
+  </data>
+  <data name="SuccessfullAccountVerification" xml:space="preserve">
+    <value>حساب کاربری با موفقیت تایید شد</value>
+  </data>
+  <data name="SuccessfullFileUpload" xml:space="preserve">
+    <value>فایل با موفقیت آپلود شد</value>
+  </data>
+  <data name="SuccessfullLoggedIn" xml:space="preserve">
+    <value>شما با موفقیت به حساب خود وارد شدید</value>
+  </data>
+  <data name="SuccessfullLoggedOut" xml:space="preserve">
+    <value>شما با موفقیت از حساب خود خارج شدید</value>
+  </data>
+  <data name="SuccessfullPayment" xml:space="preserve">
+    <value>پرداخت موفقیت آمیز بود</value>
+  </data>
+  <data name="SuccessfullProfileUpdate" xml:space="preserve">
+    <value>پروفایل شما با موفقیت به روز شد</value>
+  </data>
+  <data name="SuccessfullWalletCharge" xml:space="preserve">
+    <value>شارژ کیف پول با موفقیت انجام شد</value>
+  </data>
+  <data name="Successfully" xml:space="preserve">
+    <value>با موفقیت انجام شد</value>
+  </data>
+  <data name="SuccessfulOperation" xml:space="preserve">
+    <value>عملیات با موفقیت انجام شد</value>
+  </data>
+  <data name="SuspiciousLoginAttemptsDetected" xml:space="preserve">
+    <value>{0} عزیز ! ما متوجه چند تلاش ناموفق هنگام ورود به حساب شما در {1} شده ایم. در صورتی که رمز عبور خود را فراموش کرده اید، میتوانید از طریق نشانی زیر {2} اقدام به بازگردانی حساب خود فرمایید. در غیر اینصورت این پیام را نادیده بگیرید.</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>از شما متشکریم</value>
+  </data>
+  <data name="TicketReplySuccess" xml:space="preserve">
+    <value>پاسخ با موفقیت ثبت گردید</value>
+  </data>
+  <data name="UnsupportedProtocol" xml:space="preserve">
+    <value>این پروتکل پشتیبانی نمیشود</value>
+  </data>
+  <data name="UpdateSuccess" xml:space="preserve">
+    <value>بروزرسانی با موفقیت انجام شد</value>
+  </data>
+  <data name="UploadReportToCustomer" xml:space="preserve">
+    <value>گزارش دیرکرد در بارگذاری شما در دست بررسی قرار گرفت</value>
+  </data>
+  <data name="UploadReportToServiceProvider" xml:space="preserve">
+    <value>گزارش دیرکرد در بارگذاری برای شما از سمت کاربر ثبت گردید</value>
+  </data>
+  <data name="UserAgreement" xml:space="preserve">
+    <value>توافق نامه کاربر</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>{0} عزیز، خوش آمدید</value>
+  </data>
+  <data name="YourAccountConfirmed" xml:space="preserve">
+    <value>حساب کاربری شما با موفقیت تایید شد</value>
+  </data>
+  <data name="YourAccountConfirmedPendOnProfile" xml:space="preserve">
+    <value>حساب کاربری شما تایید شد. جهت شروع فعالیت در تخصص انتخاب شده لطفا به آدرس https://serviceprovider.axeto.net بخش پروفایل مراجعه کرده و اطلاعات خود را تکمیل نمایید</value>
+  </data>
+  <data name="YourAccountNotVerified" xml:space="preserve">
+    <value>حساب شما تایید نشد !</value>
+  </data>
+  <data name="YourAccountNotVerifiedYet" xml:space="preserve">
+    <value>حساب شما در حال بررسی میباشد !</value>
+  </data>
+  <data name="YourAccountSuspended" xml:space="preserve">
+    <value>حساب شما به حالت تعلیق در آمده !</value>
+  </data>
+  <data name="YourAccountVerified" xml:space="preserve">
+    <value>حساب شما تایید شد !</value>
+  </data>
+  <data name="YourAlbumFilesWillDeleteSoon" xml:space="preserve">
+    <value>فایل های آلبوم {0} به زودی حذف میشوند !</value>
+  </data>
+  <data name="YourAlbumWillExpireIn" xml:space="preserve">
+    <value>آلبوم {0} تا {1} منقضی خواهد شد !</value>
+  </data>
+  <data name="YourSkillIsUnderReview" xml:space="preserve">
+    <value>مهارت {0} شما در دست بررسی میباشد</value>
+  </data>
+  <data name="YourSkillRejected" xml:space="preserve">
+    <value>مهارت {0} شما تایید نشد !</value>
+  </data>
+  <data name="YourSkillsAreUnderReview" xml:space="preserve">
+    <value>تخصص شما در صف بررسی قرار گرفت</value>
+  </data>
+  <data name="YourSkillsAreUnderReviewExept" xml:space="preserve">
+    <value>مهارت های 0 به دلیل نداشتن نمونه کار قابل ثبت نیستند</value>
+  </data>
+  <data name="YourSkillVerified" xml:space="preserve">
+    <value>مهارت {0} شما تایید شد !</value>
+  </data>
+</root>
