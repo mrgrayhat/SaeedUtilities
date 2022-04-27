@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saeed.Utilities", "Saeed.Ut
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saeed.Utilities.LocalizedResource", "Saeed.Utilities.LocalizedResource\Saeed.Utilities.LocalizedResource.csproj", "{2801F77E-175B-4524-93AC-586742457FD7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{5D554585-1377-4F34-B009-4DC79F4F4D60}"
+	ProjectSection(SolutionItems) = preProject
+		tag-it.bat = tag-it.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
